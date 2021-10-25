@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>8.6 関数の定義と呼び出し</title>
+</head>
+<body>
+  <ul><li><a href="javascript:engel()">エンゲル係数</a></li></ul>
+  <script>
+    function calc(s1, s2) {return s2*100/s1}
+    function engel() {
+      s1=prompt("消費支出?","")*1
+      s2=prompt("食料費?","")*1
+      x1=calc(s1, s2)
+      alert("エンゲル係数は"+x1)
+    }
+    
+  </script>
+</body>
+</html>
