@@ -1,6 +1,6 @@
 // Projet2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-//Yuto Kawahara
+
 #include <iostream>
 float monthlyPMT(float principal, float monIntRate, float numOfMonths);
 void tt(float* balance, float monIntRate, float monPMT, float* toInterest, float* toPrincipal);
@@ -49,7 +49,6 @@ int main()
 	printf("Years of Loan = %.2f\n", numOfYears);
 	printf("Monthly Payment = %.2f\n", monPMT);
 	printf("Total Payment = %.2f\n", totalPMT);
-	printf("Name, Project Number:Yuto Kawahara, Project 2\n");
 	printf("\n");
 
 	//Calculate loan balance for 24 months
