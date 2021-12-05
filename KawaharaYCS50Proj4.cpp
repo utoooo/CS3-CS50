@@ -12,7 +12,6 @@ int main()
   
 	int data[20];
 	int dataSize;
-	printf("\nProject 4: Bubble Sort - Yuto Kawahara\n]n");
 	srand(time(0));  //“Seed” random numbers
 	dataSize = rand() % (20 - 15 + 1) + 15; //Choose data size between 15 and 20, randomly
 	for (int i = 0; i < dataSize; i++)
@@ -22,7 +21,7 @@ int main()
 		printf("%4d", data[i]);
 	printf("\n\n");
 	bubbleSort(data, dataSize);
-  printf("\nProject 4: Bubble Sort - Yuto Kawahara\n]n");
+ 
 }
 
 void bubbleSort(int data[], int dataSize)
