@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
-//Yuto Kawahara 
-//Project4 
+
 //Bubble sort
-//Complete bubble sorting program
-//2021 Dec 5 
 
 #define FALSE 0
 #define TRUE 1
