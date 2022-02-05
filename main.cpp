@@ -4,7 +4,7 @@
 #include <iostream>
 
 int main(void) {
-  printf("\nYuto Kawahara\n");
+  
   int number;
   srand(time(0));
   number = rand()%5 + 5;
@@ -68,5 +68,4 @@ int main(void) {
     printf("\n");
 
   }
-  printf("Yuto Kawahara");
 }
